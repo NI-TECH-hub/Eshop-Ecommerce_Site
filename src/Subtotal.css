@@ -29,3 +29,11 @@
     border-color: #a88734 #9c7e31 #846a29;
     color: #111;
 }
+
+
+.subtotal > button:hover,
+.subtotal > button:focus {
+  outline: 0;
+  background: darkorange;
+  box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15);
+}

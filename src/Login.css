@@ -68,3 +68,10 @@
     margin-top: 10px;
     border-color: darkgray;
   }
+
+.login__signInButton:not(:disabled):hover,
+.login__signInButton:not(:disabled):focus {
+  outline: 0;
+  background: darkorange;
+  box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15);
+}
